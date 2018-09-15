@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheet/javascript -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	<link rel="stylesheet" type="text/css" href="css_style/slideshow.css">
+	
+	<link rel="icon" href="img/icon.png">
+	
+</head>
+
+<body>	
+	<canvas id="background"></canvas>
+
+	<!--header contains the logo at the top, contact info, navigation bar, and a horizontal red line -->
+	<div id="header" class="home"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+
+		<div class="content_clear">
+			<div class ="scalable_content">
+			<h1>Administrator Login</h1>
+			
+			<form action="php/admin.php" method="post">
+				Username
+				<input type="text" name="username" placeholder="Username...">
+				<br><br>Password
+				<input type="password" name="password" placeholder="Password...">
+				<br><br>
+				<input type="submit" value="Send">
+			</form>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="content_clear">
+		<div class="scalable_content">
+		<img class="footer_logo" src="img/logo.png">
+		</div>
+	</div>
+	<!-- load scripts -->
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/slideshow.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+
+</body>

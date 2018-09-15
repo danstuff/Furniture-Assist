@@ -1,0 +1,11 @@
+fa_admin
+dg309awd85
+
+--WEBSITE--
+Re-design donate button (?)
+
+Add to admin login:
+	-Events
+	-Closure notifications
+	
+Add a client checkout system

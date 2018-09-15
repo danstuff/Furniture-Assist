@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheets -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	<link rel="stylesheet" type="text/css" href="css_style/find.css">
+	<link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+	<canvas id="background"></canvas>
+	
+	<div id="header" class="about"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+		<div class="content_clear">
+			<div class="scalable_content">
+			<h1>Find Us</h1>
+			<p>You can find us at 24 Commerce Street, Springfield, NJ, 07081, or by consulting the map below. We're off Route 22 West: just past the David's Bridal, take a right on Stern Avenue, then another left onto Commerce Street. Furniture Assist will be on your right.</p>
+			<div id="map"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="content_red">
+		<div class="scalable_content">
+		<img class="footer_logo" src="img/logo.png">
+		</div>
+	</div>
+	
+	<!-- load scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYW6Tn4-Y4HYMo2H8YyG5pnqrDG43FdJo&callback=initMap" async defer></script>
+	<script src="js_script/find.js"></script>
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+</body>

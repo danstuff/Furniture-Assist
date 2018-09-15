@@ -1,0 +1,109 @@
+/* header */
+#header{
+	background-color: white;
+	color:black;
+	
+	clear:both;
+	
+	height:160px;
+	width: 100%;
+	
+	margin: 0;
+	padding: 0;
+	
+	/*overflow: hidden;*/
+	
+	position: fixed;
+			
+	z-index:5;	
+}
+
+.header_logo{
+	display:block;
+	
+	height:70px;
+	
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-top:20px;
+	
+	position:absolute;
+	
+	z-index:-1;
+}
+
+.header_contact_info{
+	float:right;
+	
+	font-size:1em;
+	font-weight:normal;
+
+	line-height:1.2em;
+
+	margin-right:2em;
+	margin-top:1.1em;
+	
+	position:absolute;
+	
+	right:0;
+
+	text-align:right;
+	
+	width: 20em;
+}
+
+
+.header_navbar{
+	
+	margin: 0;
+	margin-left:1em;
+	margin-top:105px;
+	padding: 0;
+}
+
+.header_line {
+	background-color: #BB2100;
+	
+	border:0;
+	margin:0;
+	padding:0;
+
+  display: inline-block;
+	
+	height:20px;
+	width:100%;
+}
+
+/* header tabs */
+.tab_current, .tab, .tab_more{
+	color:black;
+	
+	display: inline-block;
+	
+	float: left;
+	
+	padding: 0.6em 1em;
+	
+	text-align:center;
+	text-decoration: none;
+	
+	transition: 0.4s ease;	
+}
+.tab_current{	
+	color:white;
+	
+	background-color: #BB2100;
+}
+.tab_more{
+	display:none;
+}
+.tab:hover, .tab_more:hover{
+	background-color: #E9D7D3;
+}
+
+/* header dropdowns */
+.dropdown{
+	position:relative;
+	display:inline_block;
+}
+

@@ -1,0 +1,153 @@
+/* overall body and font */
+@font-face{
+	font-family: "aleo";
+	src: url("Aleo-Regular.otf") format("truetype");
+}
+
+body{
+	background-color:#ddc1bb;
+	
+	font-family: "aleo", Verdana, Tahoma;
+
+	line-height: 1em; 
+	
+	margin: 0 auto; 
+}
+
+/* link appearance */
+a{
+	color: #727272;
+	text-decoration:none;
+}
+
+/* header styles */
+h2{
+	line-height:1em;
+}
+
+h3{
+	font-style: italic;
+	
+	line-height:0.5em;
+}
+
+/* table style */
+table{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+	border-collapse:collapse;
+}
+
+th, td{
+	border:1px solid;
+	border-color:rgba(0,0,0,0.1);
+}
+
+tr:nth-child(even){
+	background-color: rgba(0,0,0,0.05);
+}
+
+/* form style*/
+form {
+	margin: auto;
+	width: 95%;
+}
+
+input{
+	margin: auto;
+	width: 100%;
+	padding:12px 20px;
+	box-sizing:border-box;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	font-family: "aleo", Verdana, Tahoma;
+	color:white;
+	background-color:rgba(0,0,0,0.2);
+	border:none;
+	transition:0.4s;
+}
+
+input[type="submit"]:hover{
+	background-color:rgba(0,0,0,0.5);
+}
+
+input[type="submit"]:focus{
+	outline-width:0;
+}
+
+textarea{
+	width: 100%;
+	box-sizing:border-box;
+	margin:auto;
+	height: 100px;
+	font-family: Arial;
+	padding:12px 20px;
+	
+	resize:vertical;
+}
+
+/* background */
+#background{
+	position:fixed;
+	
+	z-index:-5;
+}
+
+/* for social media icons */
+.social_media{
+	height:32px;
+	padding:0em 0.25em;
+	margin:0 auto;
+}
+
+/* content */
+.content {
+	margin: auto;
+	
+	padding-top:120px;
+	
+	width:100%;
+}
+
+.content_clear{
+	line-height:2em;
+	
+	padding: 2em 2em;
+}
+.content_red{
+	background-color: #BB2100;
+	color:white;
+	
+	line-height:2em;
+	
+	padding: 2em 2em;
+}
+
+.scalable_content{
+	margin: auto;
+}
+
+.content_image{
+	text-align: center;
+}
+
+.content_image_profile{
+	float: left;
+	padding-right:2em;
+	padding-top:2em;
+	padding-bottom:1em;
+}
+
+/* footer */
+.footer_logo{
+	display:block;
+	width:50%;
+	
+	margin:auto;
+	padding: 2em 0em;
+	
+	position:relative;	
+}

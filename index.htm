@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheet/javascript -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	<link rel="stylesheet" type="text/css" href="css_style/slideshow.css">
+	
+	<link rel="icon" href="img/icon.png">
+	
+</head>
+
+<body>	
+	<canvas id="background"></canvas>
+
+	<!--header contains the logo at the top, contact info, navigation bar, and a horizontal red line -->
+	<div id="header" class="home"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+	
+		<!-- slideshow images, captions, and buttons -->
+		<div class ="scalable_content">
+		<div class="slideshow">
+			<img class="slideshow_image" src="img/slides/kidsbooks.jpg">
+			<img class="slideshow_image" src="img/slides/lamps.jpg">
+			<img class="slideshow_image" src="img/slides/chairs.jpg">
+						
+			<button class="slideshow_button_left" onclick="moveSlide(-1)">&#10094;</button>
+			<button class="slideshow_button_right" onclick="moveSlide(1)">&#10095;</button>
+			
+			<p class="slideshow_caption"> Kids' books, ready for any family emergency. </p>
+			<p class="slideshow_caption"> Our collection of lamps. </p>
+			<p class="slideshow_caption"> Chairs, all recent donations. </p>
+		</div>
+		</div>
+	
+		<!-- welcome message and basic info-->
+		<div class="content_clear">
+			<div class ="scalable_content">
+			<h1>Donate to Furniture Assist now and make a difference.</h1>
+			
+			<p>We receive second-hand furniture and give it to those in difficult positions in their lives &mdash; people who have been left without furniture by a sudden house fire, a tough divorce, or poverty. From those who have, to those who need.
+			
+			<div class="content_image">
+				<a href="https://www.networkforgood.org/donate/process/expressDonation.aspx?ORGID2=57-1230561" target="_blank"><img src="img/social/donate.png"></a>
+			</div>
+			
+			You can find us at <a href="find.htm">24 Commerce Street, Springfield, New Jersey, 07081</a>. We're open for furniture donations every Sunday, with the exception of certain holidays, from noon to 2:30 PM. We are open to clients on Sundays from 9:00 AM to noon. We can always use more volunteers to help our clients select the furniture and items they need.
+			You can check out our free IOS app here:  
+			
+			<div class="content_image">
+				<a href="https://itunes.apple.com/us/app/furniture-assist/id1236240378?mt=8" target="_blank"><img src="img/social/ios.png" height="64"></a>
+			</div>
+			
+			
+			Have questions? Call us at <a href="tel:+908-868-6007">908-868-6007</a>, email us at <a href="mailto:info@furnitureassist.com">info@furnitureassist.com</a>, or send us a fax at <a href="tel:+973-268-1130">973-268-1130</a>.</p>
+		  </div>
+		</div>
+		
+		<div class="content_red">
+			<div class="scalable_content">
+			
+			<h1>Upcoming Events</h1> 			
+			<h2>5th Annual Massive Tag Sale</h2>
+			<h3>to Benefit Furniture Assist</h3>
+			<p> Friday, September 8th and Saturday, September 9th at 9AM, we will be having a huge tag sale at 816 Prospect Street, Westfield NJ 07090. There will be antiques and attic treasures, vintage and modern furniture, vintage pyrex, Kitchen Aid mixers, jewelry, lamps, rugs, linens, vinyl records, CDs, DVDs, shoes, handbags clothes, toys, tools, TVs, electronics, strollers, and more!</p>
+			
+			<br>
+
+			</div>
+		</div>
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="scalable_content">
+	<img class="footer_logo" src="img/logo.png">
+	</div>
+	
+	<!-- load scripts -->
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/slideshow.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+
+</body>

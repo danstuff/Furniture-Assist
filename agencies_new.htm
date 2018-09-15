@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheets -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	
+	<link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+	<canvas id="background"></canvas>
+	
+	<div id="header" class="agencies"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+		<div class="content_clear">
+			<div class="scalable_content">
+			<h1>Register a New Agency</h1>
+			<form action="php/agency.php" method="post">
+				<h2>Personal Information</h2>
+				Your Full Name
+				<input type="text" name="full_name" placeholder="Your Full Name...">
+				<br><br>Your Email Address
+				<input type="text" name="email_address" placeholder="Your Email Address...">
+				<br><br>Your Phone Number
+				<input type="text" name="phone_number" placeholder="Your Phone Number...">
+				<br><br>Your Fax Number
+				<input type="text" name="fax_number" placeholder="Your Fax Number...">
+				
+				<br><br><h2>Agency Information</h2>
+				Agency Name
+				<input type="text" name="agency_name" placeholder="Agency Name...">
+				<br><br>Agency Website
+				<input type="text" name="agency_website" placeholder="Agency Website...">
+				
+				<br><br><h2>Address</h2>
+				Street Address<br>
+				<input type="text" name="street_address" placeholder="Street Address...">
+				<br><br>City
+				<input type="text" name="city" placeholder="City...">
+				<br><br>State
+				<input type="text" name="state" placeholder="State...">
+				<br><br>Zip Code
+				<input type="text" name="zip_code" placeholder="Zip Code...">
+				<br><br>
+				<input type="submit" value="Register">
+			</form>
+			</div>
+		</div>
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="content_red">
+		<div class="scalable_content">
+		<img class="footer_logo" src="img/logo.png">
+		</div>
+	</div>
+	
+	<!-- load scripts -->
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+	
+	
+</body>

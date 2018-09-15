@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheets -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	
+	<link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+	<canvas id="background"></canvas>
+	
+	<div id="header" class="donate"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+		<div class="content_clear">
+			<div class="scalable_content">
+			<h1>Donate Items</h1>
+			<form action="php/donation.php" method="post">
+				<h2>Personal Information</h2>
+				Your Full Name
+				<input type="text" name="full_name" placeholder="Your Full Name...">
+				<br><br>Your Email Address
+				<input type="text" name="email_address" placeholder="Your Email Address...">
+				<br><br>
+				
+				<h2>Item Information</h2>
+				List Items Below: 3 Lamps, 2 Couches, etc.
+				<input type="text">
+				<br><br>
+				<input type="submit" value="Register">
+			</form>
+			</div>
+		</div>
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="content_red">
+		<div class="scalable_content">
+		<img class="footer_logo" src="img/logo.png">
+		</div>
+	</div>
+	
+	<!-- load scripts -->
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+	
+	
+</body>

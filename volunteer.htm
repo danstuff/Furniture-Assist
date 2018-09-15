@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- basic head information: title, display icon, link to stylesheets -->
+	<title>Furniture Assist</title>
+	
+	<link rel="stylesheet" type="text/css" href="css_style/style.css">
+	<link rel="stylesheet" type="text/css" href="css_style/header.css">
+	
+	<link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+	<canvas id="background"></canvas>
+	
+	<div id="header" class="volunteer"></div>
+	<div id="buttons"></div>
+	
+	<!-- website content begins here -->
+	<div class="content">
+		<div class="content_clear">
+			<div class="scalable_content">
+			<h1>Volunteering</h1>
+			<p>Furniture Assist is an all-volunteer organization, and we are always looking for more volunteers! Our volunteers decide when they work and how they can help. We also provide community service credit upon request. Furniture Assist volunteers assist in all parts of the organization, which include: 
+			<ul>
+			<li>Helping clients select the items they need</li>
+			<li>Recieving, inspecting, and storing donations</li>
+			<li>Participating as a Board Member. Board Members are responsible for grant requests, fundraising events, social media, and other activities</li> 
+			</ul>
+			</p>
+			</div>
+		</div>
+		
+		<div class="content_red">
+			<div class="scalable_content">
+			<h1>Become a Volunteer</h1>
+			
+			<form action="php/volunteer.php" method="post">
+				Full Name
+				<input type="text" name="full_name" placeholder="Your Full Name...">
+				<br><br>Email Address
+				<input type="text" name="email_address" placeholder="Your Email Address...">
+				<br><br>Your Areas of Interest (Check All That Apply)<br>
+				<input type="checkbox" name="interests[]" value="Board" style="width:40px"> Board of Trustees <br>
+				<input type="checkbox" name="interests[]" value="Tech" style="width:40px"> Computers/Technical <br>
+				<input type="checkbox" name="interests[]" value="Publicity" style="width:40px"> Publicity/Social Media <br>
+				<input type="checkbox" name="interests[]" value="Grants" style="width:40px"> Grant Writing <br>
+				<input type="checkbox" name="interests[]" value="Clients" style="width:40px"> Helping Clients <br>
+				<input type="checkbox" name="interests[]" value="Moving" style="width:40px"> Moving/Inspecting Donations <br>
+				<input type="checkbox" name="interests[]" value="Finance" style="width:40px"> Finance <br>
+				<input type="checkbox" name="interests[]" value="Law" style="width:40px"> Law
+				<br><br>
+				<input type="submit" value="Send">
+			</form>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- bottom logo -->
+	<div class="scalable_content">
+	<img class="footer_logo" src="img/logo.png">
+	</div>
+	<!-- load scripts -->
+	<script src="js_script/trianglify.js"></script>
+	<script src="js_script/header.js"></script>
+	<script src="js_script/open.js"></script>
+</body>
